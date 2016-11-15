@@ -47,5 +47,13 @@ zenvia.send({
 });
 ```
 
+## Creating multiple instances of the Zenvia class
+```javascript
+const Zenvia = require('zenvia').Zenvia;
+const zenvia1 = new Zenvia(options1);
+const zenvia2 = new Zenvia(options2);
+// ...
+```
+
 ## License
 AGPLv3
