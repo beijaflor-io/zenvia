@@ -47,8 +47,5 @@ zenvia.send({
 });
 ```
 
-## Usage with promises and options
-Do it yourself.
-
 ## License
 AGPLv3
