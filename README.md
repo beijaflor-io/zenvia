@@ -1,8 +1,10 @@
 # zenvia
 API wrapper for Zenvia SMSs API
 
-## TODO
-- Receiving messages
+## Install
+```
+npm install zenvia
+```
 
 ## Usage
 ```javascript
@@ -54,6 +56,9 @@ const zenvia1 = new Zenvia(options1);
 const zenvia2 = new Zenvia(options2);
 // ...
 ```
+
+## TODO
+- Receiving messages
 
 ## License
 AGPLv3
