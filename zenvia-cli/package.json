@@ -1,0 +1,15 @@
+{
+  "name": "zenvia-cli",
+  "version": "1.0.0",
+  "description": "A command-line for sending SMS messages with Zenvia",
+  "main": "zenvia",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Tacla Yamada",
+  "license": "GPLv3",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "zenvia": "file:///Users/yamadapc/program/github.com/beijaflor-io/zenvia"
+  }
+}

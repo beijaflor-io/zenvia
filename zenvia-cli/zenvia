@@ -1,0 +1,40 @@
+#!/usr/bin/env node
+const program = require('commander');
+const assert = require('assert');
+const zenvia = require('..');
+
+program
+  .usage('zenvia -[mitfaup]')
+  .description('Envia mensagens de SMS')
+  .option('-u,--username <username>', 'Seu usuário para a API da zenvia')
+  .option('-p,--password <password>', 'Seu usuário para a API da zenvia')
+  .option('-i,--id <id>', 'O Client ID da mensagem')
+  .option('-t,--to <to>', 'O número que recebe a mensagem')
+  .option('-f,--from <from>', 'O recipiente que vai aparecer na mensagem')
+  .option('-m,--msg <msg>', 'A mensagem')
+  .parse(process.argv);
+
+if (!program.to ||
+    !program.username ||
+    !program.password ||
+    !program.from ||
+    !program.msg) {
+  program.outputHelp();
+  process.exit(1);
+}
+
+const messageExample = {
+  id: program.id,
+  to: program.to,
+  from: program.from,
+  msg: program.msg,
+  aggregateId: null,
+};
+
+zenvia.send(messageExample, (err, result) => {
+  console.log('--------------------------------------------------------------------------------');
+  console.log(err, result);
+}, {
+  user: program.username,
+  password: program.password,
+});
