@@ -8,3 +8,6 @@ zenvia \
   --to $MY_PHONE \
   --msg "Hello World!"
 ```
+
+## License
+AGPLv3
