@@ -15,8 +15,6 @@ program
   .parse(process.argv);
 
 if (!program.to ||
-    !program.username ||
-    !program.password ||
     !program.from ||
     !program.msg) {
   program.outputHelp();
