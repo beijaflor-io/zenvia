@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "API wrapper for Zenvia SMSs API",
   "main": "lib/index.js",
+  "engines": {
+    "node": ">=4"
+  },
   "scripts": {
     "test": "mocha"
   },
