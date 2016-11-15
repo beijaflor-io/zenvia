@@ -3,7 +3,6 @@ API wrapper for Zenvia SMSs API
 
 ## TODO
 - Receiving messages
-- Integrating with a database model
 
 ## Usage
 ```javascript
