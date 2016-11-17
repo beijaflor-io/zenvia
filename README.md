@@ -1,4 +1,8 @@
 # zenvia
+[![npm downloads per month](http://img.shields.io/npm/dm/zenvia.svg)](https://www.npmjs.org/package/zenvia)
+[![npm version](https://img.shields.io/npm/v/zenvia.svg)](https://www.npmjs.org/package/zenvia)
+- - -
+
 API wrapper for Zenvia SMSs API
 
 ## Install
