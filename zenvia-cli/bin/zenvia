@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const program = require('commander');
 const assert = require('assert');
-const zenvia = require('..');
+const zenvia = require('zenvia');
 
 program
   .usage('zenvia -[mitfaup]')
