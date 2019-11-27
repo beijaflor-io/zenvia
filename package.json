@@ -12,13 +12,13 @@
   "author": "Pedro Tacla Yamada",
   "license": "AGPLv3",
   "dependencies": {
-    "debug": "^2.2.0",
-    "superagent": "^2.3.0",
-    "uuid": "^2.0.3"
+    "debug": "^4.1.0",
+    "superagent": "^4.0.0",
+    "uuid": "^3.3.2"
   },
   "devDependencies": {
-    "mocha": "^3.1.2",
+    "mocha": "^5.2.0",
     "mocha-make-stub": "^2.3.2",
-    "should": "^11.1.1"
+    "should": "^13.2.3"
   }
 }
