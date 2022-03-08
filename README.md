@@ -14,7 +14,7 @@ npm install zenvia
 ```javascript
 const zenvia = require('zenvia');
 zenvia.send({
-  to: '5511971730898',
+  to: '',
   from: 'agenda0',
   msg: 'Não se esqueça do seu compromisso amanhã às 16h com Pedro. Veja mais em: https://ag0.io/asdfdf',
 }, (err, result) => {
@@ -29,7 +29,7 @@ const zenvia = require('zenvia');
 Promise.promisifyAll(zenvia);
 
 zenvia.sendAsync({
-  to: '5511971730898',
+  to: '',
   from: 'agenda0',
   msg: 'Não se esqueça do seu compromisso amanhã às 16h com Pedro. Veja mais em: https://ag0.io/asdfdf',
 }).then((result) => {
@@ -41,7 +41,7 @@ zenvia.sendAsync({
 const zenvia = require('zenvia');
 
 zenvia.send({
-  to: '5511971730898',
+  to: '',
   from: 'agenda0',
   msg: 'Não se esqueça do seu compromisso amanhã às 16h com Pedro. Veja mais em: https://ag0.io/asdfdf',
 }, (err, result) => {
